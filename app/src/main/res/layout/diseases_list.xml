@@ -20,7 +20,7 @@
         android:paddingBottom="5sp">
 
         <TextView
-            android:id="@+id/patient_name"
+            android:id="@+id/disease_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fio"
@@ -31,26 +31,16 @@
             tools:layout_editor_absoluteX="5dp" />
 
         <TextView
-            android:id="@+id/patient_card"
+            android:id="@+id/disease_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/card"
             android:textAlignment="center"
             android:textSize="24sp"
             app:autoSizeTextType="uniform"
-            app:layout_constraintTop_toBottomOf="@id/patient_name"
+            app:layout_constraintTop_toBottomOf="@id/disease_name"
             tools:layout_editor_absoluteX="5dp" />
 
-        <TextView
-            android:id="@+id/patient_diseases"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/diseases"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            app:autoSizeTextType="uniform"
-            app:layout_constraintTop_toBottomOf="@id/patient_card"
-            tools:layout_editor_absoluteX="5dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
